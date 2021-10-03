@@ -1,0 +1,34 @@
+body
+{
+	display: flex;
+}
+
+ul 
+{
+	padding: 0;
+	list-style-type: none;
+}
+
+li{
+	margin: 0;
+}
+
+li:hover
+{
+	background-color: lightgray;
+}
+
+#container 
+{
+	flex-grow: 3;
+}
+
+#browser
+{
+	flex-grow: 1;
+}
+
+li 
+{ 
+	cursor: pointer; 
+}
